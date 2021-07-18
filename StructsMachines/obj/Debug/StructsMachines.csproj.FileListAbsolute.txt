@@ -1,0 +1,60 @@
+C:\Users\HitenG2\source\repos\StructsMachines\bin\Debug\StructsMachines.exe.config
+C:\Users\HitenG2\source\repos\StructsMachines\bin\Debug\StructsMachines.exe
+C:\Users\HitenG2\source\repos\StructsMachines\bin\Debug\StructsMachines.pdb
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.exe
+C:\Users\HitenG2\source\repos\StructsMachines\obj\Debug\StructsMachines.pdb
+E:\Архив ZIP - WinRAR\struct\StructsMachines\bin\Debug\StructsMachines.exe.config
+E:\Архив ZIP - WinRAR\struct\StructsMachines\bin\Debug\StructsMachines.exe
+E:\Архив ZIP - WinRAR\struct\StructsMachines\bin\Debug\StructsMachines.pdb
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.exe
+E:\Архив ZIP - WinRAR\struct\StructsMachines\obj\Debug\StructsMachines.pdb
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe.config
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.pdb
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.exe
+E:\.AUniversity\Progs_Inna A\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.pdb
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe.config
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.pdb
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.exe
+E:\.AUniversity\Progs_InnaA\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.pdb
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe.config
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.pdb
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.exe
+C:\Users\HitenG2\Desktop\struct\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.pdb
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe.config
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.exe
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\bin\Debug\StructsMachines.pdb
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csprojAssemblyReference.cache
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.exe
+D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.pdb
