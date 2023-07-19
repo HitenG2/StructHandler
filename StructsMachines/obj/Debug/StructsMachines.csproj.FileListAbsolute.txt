@@ -58,3 +58,14 @@ D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachine
 D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
 D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.exe
 D:\Mems, pics and other\Visual Studio\struct_new\5.StructsHandler\StructsMachines\obj\Debug\StructsMachines.pdb
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\bin\Debug\StructsMachines.exe.config
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\bin\Debug\StructsMachines.exe
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\bin\Debug\StructsMachines.pdb
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.csproj.AssemblyReference.cache
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.csproj.SuggestedBindingRedirects.cache
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.Form1.resources
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.Properties.Resources.resources
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.csproj.GenerateResource.cache
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.csproj.CoreCompileInputs.cache
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.exe
+C:\Users\HitenG2\Desktop\StructHandler-master\StructsMachines\obj\Debug\StructsMachines.pdb

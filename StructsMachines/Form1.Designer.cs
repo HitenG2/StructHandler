@@ -58,6 +58,8 @@
             this.вКонецToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.доВыделеннойСтрокиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.послеВыделеннойСтрокиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сортировкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поОдномуПолюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поНомеруАвтоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,13 +73,6 @@
             this.обАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вариантЗаданияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ColumnNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnBrand = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.ColumnColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.ColumnYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnLocation = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnInspection = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tabPage_Add = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -104,7 +99,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label_nomer = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.tabPage_Search = new System.Windows.Forms.TabPage();
             this.checkBoxF3ProTinsWithout = new System.Windows.Forms.CheckBox();
             this.buttonF3ProDiscard = new System.Windows.Forms.Button();
@@ -140,8 +134,14 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ColumnNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnBrand = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.ColumnColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.ColumnYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnLocation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnInspection = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage_List.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -168,16 +168,16 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(764, 373);
+            this.tabControl1.Size = new System.Drawing.Size(820, 373);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage_List
             // 
-            this.tabPage_List.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.tabPage_List.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.tabPage_List.Controls.Add(this.toolStrip2);
             this.tabPage_List.Controls.Add(this.button6);
             this.tabPage_List.Controls.Add(this.button4);
             this.tabPage_List.Controls.Add(this.button5);
-            this.tabPage_List.Controls.Add(this.toolStrip2);
             this.tabPage_List.Controls.Add(this.toolStrip1);
             this.tabPage_List.Controls.Add(this.menuStrip1);
             this.tabPage_List.Controls.Add(this.dataGridView1);
@@ -185,14 +185,14 @@
             this.tabPage_List.Location = new System.Drawing.Point(4, 22);
             this.tabPage_List.Name = "tabPage_List";
             this.tabPage_List.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_List.Size = new System.Drawing.Size(756, 347);
+            this.tabPage_List.Size = new System.Drawing.Size(812, 347);
             this.tabPage_List.TabIndex = 0;
             this.tabPage_List.Text = "Главная";
             // 
             // button6
             // 
             this.button6.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.button6.Location = new System.Drawing.Point(495, 256);
+            this.button6.Location = new System.Drawing.Point(552, 255);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(213, 23);
             this.button6.TabIndex = 5;
@@ -204,7 +204,7 @@
             // button4
             // 
             this.button4.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.button4.Location = new System.Drawing.Point(495, 314);
+            this.button4.Location = new System.Drawing.Point(552, 313);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(213, 23);
             this.button4.TabIndex = 1;
@@ -216,7 +216,7 @@
             // button5
             // 
             this.button5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.button5.Location = new System.Drawing.Point(495, 285);
+            this.button5.Location = new System.Drawing.Point(552, 284);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(213, 23);
             this.button5.TabIndex = 2;
@@ -227,19 +227,20 @@
             // 
             // toolStrip2
             // 
-            this.toolStrip2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.toolStrip2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.toolStrip2.Dock = System.Windows.Forms.DockStyle.Right;
             this.toolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonUp,
             this.toolStripSeparator1,
             this.toolStripButtonDown});
-            this.toolStrip2.Location = new System.Drawing.Point(729, 60);
+            this.toolStrip2.Location = new System.Drawing.Point(785, 60);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.toolStrip2.Size = new System.Drawing.Size(24, 284);
             this.toolStrip2.TabIndex = 4;
             this.toolStrip2.Text = "toolStrip2";
+            this.toolStrip2.UseWaitCursor = true;
             // 
             // toolStripButtonUp
             // 
@@ -249,7 +250,6 @@
             this.toolStripButtonUp.Name = "toolStripButtonUp";
             this.toolStripButtonUp.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.toolStripButtonUp.Size = new System.Drawing.Size(21, 30);
-            this.toolStripButtonUp.Text = "toolStripButton1";
             this.toolStripButtonUp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.toolStripButton1_MouseDown);
             // 
             // toolStripSeparator1
@@ -266,12 +266,11 @@
             this.toolStripButtonDown.Name = "toolStripButtonDown";
             this.toolStripButtonDown.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.toolStripButtonDown.Size = new System.Drawing.Size(21, 30);
-            this.toolStripButtonDown.Text = "toolStripButton2";
             this.toolStripButtonDown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.toolStripButton2_MouseDown);
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton3,
@@ -282,7 +281,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(3, 27);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(750, 33);
+            this.toolStrip1.Size = new System.Drawing.Size(806, 33);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -337,7 +336,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.списокToolStripMenuItem,
             this.операцияСЗаписямиToolStripMenuItem,
@@ -347,7 +346,7 @@
             this.оПрограммеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(3, 3);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(750, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(806, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -382,7 +381,7 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(210, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(179, 6);
             // 
             // удалитьФайлToolStripMenuItem
             // 
@@ -394,12 +393,12 @@
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(210, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(179, 6);
             // 
             // отменитьУдалениеToolStripMenuItem
             // 
             this.отменитьУдалениеToolStripMenuItem.Name = "отменитьУдалениеToolStripMenuItem";
-            this.отменитьУдалениеToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.отменитьУдалениеToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.отменитьУдалениеToolStripMenuItem.Text = "Отменить удаление";
             this.отменитьУдалениеToolStripMenuItem.Click += new System.EventHandler(this.отменитьУдалениеToolStripMenuItem_Click);
             // 
@@ -453,6 +452,18 @@
             this.послеВыделеннойСтрокиToolStripMenuItem.Text = "После выделенной строки";
             this.послеВыделеннойСтрокиToolStripMenuItem.Click += new System.EventHandler(this.послеВыделеннойСтрокиToolStripMenuItem_Click);
             // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(123, 6);
+            // 
+            // удалитьToolStripMenuItem
+            // 
+            this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
+            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.удалитьToolStripMenuItem.Text = "Удалить";
+            this.удалитьToolStripMenuItem.Click += new System.EventHandler(this.удалитьToolStripMenuItem_Click);
+            // 
             // сортировкаToolStripMenuItem
             // 
             this.сортировкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -469,7 +480,7 @@
             this.поНомеруАвтоToolStripMenuItem,
             this.поФамилииВладельцаToolStripMenuItem});
             this.поОдномуПолюToolStripMenuItem.Name = "поОдномуПолюToolStripMenuItem";
-            this.поОдномуПолюToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.поОдномуПолюToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.поОдномуПолюToolStripMenuItem.Text = "Стандартная";
             this.поОдномуПолюToolStripMenuItem.Click += new System.EventHandler(this.поОдномуПолюToolStripMenuItem_Click);
             // 
@@ -490,7 +501,7 @@
             // сложнаяToolStripMenuItem
             // 
             this.сложнаяToolStripMenuItem.Name = "сложнаяToolStripMenuItem";
-            this.сложнаяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сложнаяToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.сложнаяToolStripMenuItem.Text = "Сложная";
             this.сложнаяToolStripMenuItem.Click += new System.EventHandler(this.сложнаяToolStripMenuItem_Click);
             // 
@@ -515,14 +526,14 @@
             // вывестиСписокToolStripMenuItem
             // 
             this.вывестиСписокToolStripMenuItem.Name = "вывестиСписокToolStripMenuItem";
-            this.вывестиСписокToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.вывестиСписокToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.вывестиСписокToolStripMenuItem.Text = "Вывести список";
             this.вывестиСписокToolStripMenuItem.Click += new System.EventHandler(this.вывестиСписокToolStripMenuItem_Click);
             // 
             // очиститьТаблицуToolStripMenuItem
             // 
             this.очиститьТаблицуToolStripMenuItem.Name = "очиститьТаблицуToolStripMenuItem";
-            this.очиститьТаблицуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.очиститьТаблицуToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.очиститьТаблицуToolStripMenuItem.Text = "Очистить таблицу";
             this.очиститьТаблицуToolStripMenuItem.Click += new System.EventHandler(this.очиститьТаблицуToolStripMenuItem_Click);
             // 
@@ -552,7 +563,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
             this.dataGridView1.ColumnHeadersHeight = 35;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -563,62 +574,17 @@
             this.ColumnFullName,
             this.ColumnLocation,
             this.ColumnInspection});
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.WindowFrame;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.InactiveCaption;
             this.dataGridView1.Location = new System.Drawing.Point(3, 60);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(723, 284);
+            this.dataGridView1.Size = new System.Drawing.Size(778, 284);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             // 
-            // ColumnNumber
-            // 
-            this.ColumnNumber.HeaderText = "Номер машины";
-            this.ColumnNumber.Name = "ColumnNumber";
-            this.ColumnNumber.Width = 70;
-            // 
-            // ColumnBrand
-            // 
-            this.ColumnBrand.HeaderText = "Марка";
-            this.ColumnBrand.Items.AddRange(new object[] {
-            "Audi"});
-            this.ColumnBrand.Name = "ColumnBrand";
-            this.ColumnBrand.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ColumnBrand.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ColumnColor
-            // 
-            this.ColumnColor.HeaderText = "Цвет";
-            this.ColumnColor.Name = "ColumnColor";
-            this.ColumnColor.Width = 85;
-            // 
-            // ColumnYear
-            // 
-            this.ColumnYear.HeaderText = "Год выпуска";
-            this.ColumnYear.Name = "ColumnYear";
-            this.ColumnYear.Width = 60;
-            // 
-            // ColumnFullName
-            // 
-            this.ColumnFullName.HeaderText = "Владелец";
-            this.ColumnFullName.Name = "ColumnFullName";
-            this.ColumnFullName.Width = 160;
-            // 
-            // ColumnLocation
-            // 
-            this.ColumnLocation.HeaderText = "Адрес";
-            this.ColumnLocation.Name = "ColumnLocation";
-            this.ColumnLocation.Width = 195;
-            // 
-            // ColumnInspection
-            // 
-            this.ColumnInspection.HeaderText = "ТО";
-            this.ColumnInspection.Name = "ColumnInspection";
-            this.ColumnInspection.Width = 50;
-            // 
             // tabPage_Add
             // 
-            this.tabPage_Add.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.tabPage_Add.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tabPage_Add.Controls.Add(this.button1);
             this.tabPage_Add.Controls.Add(this.checkBox2);
             this.tabPage_Add.Controls.Add(this.checkBox1);
@@ -645,14 +611,14 @@
             this.tabPage_Add.Location = new System.Drawing.Point(4, 22);
             this.tabPage_Add.Name = "tabPage_Add";
             this.tabPage_Add.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Add.Size = new System.Drawing.Size(756, 347);
+            this.tabPage_Add.Size = new System.Drawing.Size(812, 347);
             this.tabPage_Add.TabIndex = 1;
             this.tabPage_Add.Text = "Добавить";
             // 
             // button1
             // 
             this.button1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.button1.Location = new System.Drawing.Point(629, 314);
+            this.button1.Location = new System.Drawing.Point(668, 312);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 23);
             this.button1.TabIndex = 11;
@@ -696,18 +662,19 @@
             this.dataGridView1_adress.AllowUserToAddRows = false;
             this.dataGridView1_adress.AllowUserToResizeColumns = false;
             this.dataGridView1_adress.AllowUserToResizeRows = false;
+            this.dataGridView1_adress.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1_adress.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1_adress.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column_city,
             this.Column_ulica,
             this.Column_house,
             this.Column_apart});
-            this.dataGridView1_adress.Location = new System.Drawing.Point(191, 230);
+            this.dataGridView1_adress.Location = new System.Drawing.Point(180, 238);
             this.dataGridView1_adress.Name = "dataGridView1_adress";
             this.dataGridView1_adress.RowHeadersVisible = false;
             this.dataGridView1_adress.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dataGridView1_adress.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGridView1_adress.Size = new System.Drawing.Size(379, 44);
+            this.dataGridView1_adress.Size = new System.Drawing.Size(426, 44);
             this.dataGridView1_adress.TabIndex = 8;
             // 
             // Column_city
@@ -772,7 +739,7 @@
             // 
             // textBox_middlename
             // 
-            this.textBox_middlename.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox_middlename.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox_middlename.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBox_middlename.Location = new System.Drawing.Point(180, 190);
             this.textBox_middlename.Name = "textBox_middlename";
@@ -781,7 +748,7 @@
             // 
             // textBox_firstname
             // 
-            this.textBox_firstname.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox_firstname.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox_firstname.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBox_firstname.Location = new System.Drawing.Point(180, 138);
             this.textBox_firstname.Name = "textBox_firstname";
@@ -790,7 +757,7 @@
             // 
             // textBox_secondname
             // 
-            this.textBox_secondname.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox_secondname.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox_secondname.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBox_secondname.Location = new System.Drawing.Point(180, 164);
             this.textBox_secondname.Name = "textBox_secondname";
@@ -808,10 +775,10 @@
             // 
             // comboBox2
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.comboBox2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.comboBox2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(485, 47);
+            this.comboBox2.Location = new System.Drawing.Point(435, 47);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 3;
@@ -819,7 +786,7 @@
             // label_createdata
             // 
             this.label_createdata.AutoSize = true;
-            this.label_createdata.Location = new System.Drawing.Point(402, 50);
+            this.label_createdata.Location = new System.Drawing.Point(352, 50);
             this.label_createdata.Name = "label_createdata";
             this.label_createdata.Size = new System.Drawing.Size(77, 13);
             this.label_createdata.TabIndex = 7;
@@ -828,7 +795,7 @@
             // label_color
             // 
             this.label_color.AutoSize = true;
-            this.label_color.Location = new System.Drawing.Point(444, 73);
+            this.label_color.Location = new System.Drawing.Point(386, 84);
             this.label_color.Name = "label_color";
             this.label_color.Size = new System.Drawing.Size(35, 13);
             this.label_color.TabIndex = 6;
@@ -849,7 +816,7 @@
             "Розовый",
             "Хромовый",
             "Фиолетовый"});
-            this.listBox1.Location = new System.Drawing.Point(485, 74);
+            this.listBox1.Location = new System.Drawing.Point(435, 74);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 4;
@@ -931,7 +898,7 @@
             "ZIL"});
             this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.comboBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.comboBox1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -1014,25 +981,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBox1.Location = new System.Drawing.Point(180, 47);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(352, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Автомобиль";
-            // 
             // tabPage_Search
             // 
-            this.tabPage_Search.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.tabPage_Search.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tabPage_Search.Controls.Add(this.checkBoxF3ProTinsWithout);
             this.tabPage_Search.Controls.Add(this.buttonF3ProDiscard);
             this.tabPage_Search.Controls.Add(this.buttonF3ProApplyFilter);
@@ -1048,7 +1006,7 @@
             this.tabPage_Search.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tabPage_Search.Location = new System.Drawing.Point(4, 22);
             this.tabPage_Search.Name = "tabPage_Search";
-            this.tabPage_Search.Size = new System.Drawing.Size(756, 347);
+            this.tabPage_Search.Size = new System.Drawing.Size(812, 347);
             this.tabPage_Search.TabIndex = 2;
             this.tabPage_Search.Text = "Фильтрация";
             // 
@@ -1202,7 +1160,7 @@
             // 
             // comboBoxF3ModeSearch
             // 
-            this.comboBoxF3ModeSearch.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.comboBoxF3ModeSearch.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.comboBoxF3ModeSearch.ForeColor = System.Drawing.SystemColors.MenuText;
             this.comboBoxF3ModeSearch.FormattingEnabled = true;
             this.comboBoxF3ModeSearch.Items.AddRange(new object[] {
@@ -1238,6 +1196,7 @@
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView2.ColumnHeadersHeight = 34;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1297,7 +1256,7 @@
             // 
             // tabPage_Info
             // 
-            this.tabPage_Info.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.tabPage_Info.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tabPage_Info.Controls.Add(this.groupBox2);
             this.tabPage_Info.Controls.Add(this.label8);
             this.tabPage_Info.Controls.Add(this.groupBox1);
@@ -1306,7 +1265,7 @@
             this.tabPage_Info.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tabPage_Info.Location = new System.Drawing.Point(4, 22);
             this.tabPage_Info.Name = "tabPage_Info";
-            this.tabPage_Info.Size = new System.Drawing.Size(756, 347);
+            this.tabPage_Info.Size = new System.Drawing.Size(812, 347);
             this.tabPage_Info.TabIndex = 3;
             this.tabPage_Info.Text = "О программе";
             // 
@@ -1377,28 +1336,71 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // toolStripSeparator5
+            // ColumnNumber
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.ColumnNumber.HeaderText = "Номер машины";
+            this.ColumnNumber.Name = "ColumnNumber";
+            this.ColumnNumber.Width = 70;
             // 
-            // удалитьToolStripMenuItem
+            // ColumnBrand
             // 
-            this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
-            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.удалитьToolStripMenuItem.Text = "Удалить";
-            this.удалитьToolStripMenuItem.Click += new System.EventHandler(this.удалитьToolStripMenuItem_Click);
+            this.ColumnBrand.HeaderText = "Марка";
+            this.ColumnBrand.Items.AddRange(new object[] {
+            "Audi"});
+            this.ColumnBrand.Name = "ColumnBrand";
+            this.ColumnBrand.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColumnBrand.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // ColumnColor
+            // 
+            this.ColumnColor.HeaderText = "Цвет";
+            this.ColumnColor.Name = "ColumnColor";
+            this.ColumnColor.Width = 85;
+            // 
+            // ColumnYear
+            // 
+            this.ColumnYear.HeaderText = "Год выпуска";
+            this.ColumnYear.Name = "ColumnYear";
+            this.ColumnYear.Width = 60;
+            // 
+            // ColumnFullName
+            // 
+            this.ColumnFullName.HeaderText = "Владелец";
+            this.ColumnFullName.Name = "ColumnFullName";
+            this.ColumnFullName.Width = 160;
+            // 
+            // ColumnLocation
+            // 
+            this.ColumnLocation.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnLocation.HeaderText = "Адрес";
+            this.ColumnLocation.Name = "ColumnLocation";
+            // 
+            // ColumnInspection
+            // 
+            this.ColumnInspection.HeaderText = "ТО";
+            this.ColumnInspection.Name = "ColumnInspection";
+            this.ColumnInspection.Width = 50;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(8, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Автомобиль";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(758, 362);
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.ClientSize = new System.Drawing.Size(820, 374);
             this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Structs";
+            this.Text = "RG_Machine_control";
             this.tabControl1.ResumeLayout(false);
             this.tabPage_List.ResumeLayout(false);
             this.tabPage_List.PerformLayout();
@@ -1461,7 +1463,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label_nomer;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1_adress;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -1510,13 +1511,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumber;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ColumnBrand;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ColumnColor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnYear;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFullName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnLocation;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn ColumnInspection;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem удалитьФайлToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
@@ -1543,6 +1537,14 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn ColumnF3_t_inspection;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem удалитьToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumber;
+        private System.Windows.Forms.DataGridViewComboBoxColumn ColumnBrand;
+        private System.Windows.Forms.DataGridViewComboBoxColumn ColumnColor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnYear;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFullName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnLocation;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn ColumnInspection;
+        private System.Windows.Forms.Label label1;
     }
 }
 
